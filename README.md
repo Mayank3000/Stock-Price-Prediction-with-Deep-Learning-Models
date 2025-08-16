@@ -82,7 +82,6 @@ Here are the plots comparing **predictions vs actual stock prices** for the **To
 - 📌 **Transformer Predictions**
   ![Transformer Plot](transformer_plot.png)
 
-*(Add your plots in the `plots/` folder and they will automatically display here.)*
 
 ---
 
@@ -91,16 +90,6 @@ Here are the plots comparing **predictions vs actual stock prices** for the **To
 - **TensorFlow / Keras**
 - **Pandas, NumPy**
 - **Matplotlib, Seaborn**
-
----
-
-## 📂 Project Structure
-├── data/ # Raw and processed stock price data
-├── models/ # Model definitions (MLP, LSTM, GRU, CNN, Transformer)
-├── notebooks/ # Jupyter notebooks for experiments
-├── plots/ # Prediction vs Actual plots
-├── results/ # Saved metrics & trained models
-└── README.md # Project documentation
 
 ---
 
