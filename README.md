@@ -74,13 +74,13 @@ Our goal is to evaluate which architecture provides the most accurate prediction
 Here are the plots comparing **predictions vs actual stock prices** for the **Top 3 models (GRU, LSTM, Transformer):**
 
 - 📌 **GRU Predictions**
-  ![GRU Plot](gru_plot.png)
-
-- 📌 **LSTM Predictions**
-  ![LSTM Plot](lstm_plot.png)
+  ![GRU Plot](gru_plots.png)
 
 - 📌 **Transformer Predictions**
-  ![Transformer Plot](transformer_plot.png)
+  ![Transformer Plot](transformer_plots.png)
+
+- 📌 **LSTM Predictions**
+  ![LSTM Plot](lstm_plots.png)
 
 
 ---
