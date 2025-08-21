@@ -58,11 +58,12 @@ Our goal is to evaluate which architecture provides the most accurate prediction
 
 | Model        | MSE       | MAE      | MAPE (%) | R² Score |
 |--------------|-----------|----------|-----------|----------|
-| **GRU**      | **38.72** | **4.68** | **2.20**  | **0.925** |
-| LSTM         | 78.26     | 6.76     | 3.14      | 0.849    |
-| Transformer  | 88.50     | 8.14     | 3.79      | 0.829    |
-| CNN          | 402.13    | 17.10    | 7.81      | 0.224    |
-| MLP          | 664.11    | 23.80    | 11.08     | -0.282   |
+| **GRU**      | **46.27** | **5.18** | **2.41**  | **0.911** |
+| Transformer  | 90.21     | 7.96     | 3.68      | 0.826    |
+| LSTM         | 121.38    | 8.72     | 4.00      | 0.765    |
+| CNN          | 329.60    | 15.66    | 7.21      | 0.363    |
+| MLP          | 362.91    | 15.44    | 7.20      | 0.298    |
+
 
 ✅ **GRU achieved the best overall performance** with the lowest error and highest R² score.  
 ⚠️ MLP and CNN performed poorly compared to recurrent and attention-based models.
